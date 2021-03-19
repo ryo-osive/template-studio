@@ -5,3 +5,4 @@ semantic
 log
 .DS_Store
 thumbs.db
+package-lock.json

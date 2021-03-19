@@ -23,3 +23,20 @@ npm run start
 
 Go to http://localhost:8080
 
+## Docker from source 
+
+- You can build the docker images
+
+    ```bash
+    docker build --no-cache -f Dockerfile -t template-studio:latest .
+    ```
+
+- Start template-studio docker container
+
+    ```bash
+    docker run -d -it  -p 80:80 --name template-studio template-studio:latest
+    ```
+
+## Directly from Dockerhub image
+
+
